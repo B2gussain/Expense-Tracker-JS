@@ -127,6 +127,7 @@ form>input{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    color:white;
 }
 label{
     margin-top: 10px;
