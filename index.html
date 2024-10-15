@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="white-text">Expense Tracker</h1>
+        <div class="container">
+            <div class="balance-block">
+                <h2 class="white-text">YOUR BALANCE</h2>
+                <div class="balance white-text"><span class="rupees">&#8377;</span>
+                    <h1 class="balance-display white-text">0</h1>
+                </div>
+            </div>
+            <div class="inc-dec">
+                <div class="income-block">
+                    <h2 class="white-text">INCOME</h2>
+                    <div class="income">
+                        <span class="rupees">&#8377;</span>
+                        <h1 class="income-display">0</h1>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="expense-block">
+                    <h2 class="white-text">EXPENSE</h2>
+                    <div class="expense">
+                        <span class="rupees">&#8377;</span>
+                        <h1 class="expense-display">0</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="transaction-list">
+                <h2 style="font-weight: bolder; padding-top: 10px;" class="white-text">History</h2>
+                <hr>
+                <ul class="list white-text">
+                    <!-- <li>
+                        <p class="delete">X</p>
+                        <p>Cash</p>
+                        <p class="price-display">+500</p>
+                    </li> -->
+                  
+                </ul>
+            </div>
+            <h2 class="white-text">Add new transaction</h2>
+            <form class="form">
+                <label  class="white-text" for="Text">Text</label>
+                <input type="text" placeholder="Enter text..." class="text-input">
+                <label  class="white-text" for="Amount">Amount</label>
+                <input type="number" placeholder="Enter amount..." class="amount-input">
+                <button type="submit">Add transaction</button>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
